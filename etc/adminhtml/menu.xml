@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+	<menu>		
+		<add id="Dotsquare_Banner::Heading" title="Dotsquare Banner Slider" module="Dotsquare_Banner" sortOrder="50" parent="Magento_Backend::content" resource="Dotsquare_Banner::Heading" />
+		<add id="Dotsquare_Banner::grid" title="Manage Groups"  action="responsivebannerslider/slidergroup" module="Dotsquare_Banner" sortOrder="2" parent="Dotsquare_Banner::Heading"  resource="Dotsquare_Banner::grid"/>
+		<add id="Dotsquare_Banner::slide" title="Manage Slides"  action="responsivebannerslider/slide" module="Dotsquare_Banner" sortOrder="2" parent="Dotsquare_Banner::Heading"  resource="Dotsquare_Banner::slide"/>
+			
+	</menu>
+</config>
+
